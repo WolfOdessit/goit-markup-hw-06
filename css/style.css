@@ -741,7 +741,7 @@ button {
     row-gap: 48px;
 }
 
-@media (min-width:768px) {
+@media screen and (min-width:768px) {
     .portfolio-ul {
         flex-wrap: wrap;
         gap: 24px;
@@ -761,6 +761,10 @@ button {
 
     .portfolio-section {
         padding: 120px 0;
+    }
+
+    .portfolio-ul {
+        row-gap: 40px;
     }
 }
 
